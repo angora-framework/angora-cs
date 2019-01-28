@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Angora</RootNamespace>
+    <Authors>Zach Deibert</Authors>
+    <Product>Angora Framework</Product>
+    <PackageLicenseUrl>https://github.com/angora-framework/angora-cs/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/angora-framework/angora-cs</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/angora-framework/angora-cs.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+
+</Project>
